@@ -1,37 +1,21 @@
 {
-    "version": "1.0",
-    "files": [
-        {
-            "name": "Aimbot CFG",
-            "filename": "aimbot.cfg",
-            "url": "https://raw.githubusercontent.com/username/repo/main/files/aimbot.cfg"
-        },
-        {
-            "name": "Bunnyhop CFG",
-            "filename": "bhop.cfg",
-            "url": "https://raw.githubusercontent.com/username/repo/main/files/bhop.cfg"
-        },
-        {
-            "name": "Pro Skin Pack",
-            "filename": "skins_pro.vpk",
-            "url": "https://raw.githubusercontent.com/username/repo/main/files/skins_pro.vpk"
-        }
-    ],
-    "gui": {
-        "name": "Menu GUI",
-        "filename": "menu.exe",
-        "url": "https://raw.githubusercontent.com/username/repo/main/files/menu.exe"
+  "downloads": {
+    "cfg": {
+      "url": "https://example.com/cfg.zip",
+      "path": "./downloads/cfg"
     },
-    "ahk": [
-        {
-            "name": "AutoClicker",
-            "filename": "clicker.ahk",
-            "url": "https://raw.githubusercontent.com/username/repo/main/files/clicker.ahk"
-        },
-        {
-            "name": "Bunnyhop Script",
-            "filename": "bhop.ahk",
-            "url": "https://raw.githubusercontent.com/username/repo/main/files/bhop.ahk"
-        }
-    ]
+    "gui-pack": {
+      "url": "https://example.com/gui-pack.zip",
+      "path": "./downloads/gui-pack"
+    },
+    "models-pack": {
+      "url": "https://example.com/models-pack.zip",
+      "path": "./downloads/models-pack"
+    }
+  },
+  "settings": {
+    "config_path": "config.json",
+    "output_dir": "downloads",
+    "use_curl": true
+  }
 }
